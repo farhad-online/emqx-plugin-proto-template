@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package emqx_plugin;
+
+option go_package = "emqx_plugin";
+
+option java_multiple_files = true;
+option java_package = "com.emqx.plugin";
+option java_outer_classname = "EmqxPlugin";
+
+option csharp_namespace = "Emqx.Plugin";
+
+message ClientInfoMsg {
+
+}
+
+message PubSubMsg {
+
+}
+
+message ConnectionInfoMsg {
+
+}
+
+message PropsMsg {
+
+}
+
+message SessionInfoMsg {
+
+}
+
+message ReasonMsg {
+
+}
+
+message OptionsMsg {
+
+}
+
